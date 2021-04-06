@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7305da27d08c81b4b882f399fc2a25d4, type: 3}
+  m_Name: Lightning Bolt
+  m_EditorClassIdentifier: 
+  cardType: 0
+  spell: 5
+  cardName: Chain Lightning
+  cardDescription: Deals N damage to primary target and twice less to secondary
+  cardArt: {fileID: 21300000, guid: 3bd8f1d966f385a41aae01a6c6775767, type: 3}
+  isTargeted: 1
+  apCost: 3
+  effectPrefab: {fileID: 4079293620144613450, guid: bac05570fe100b543a9290dae991f325,
+    type: 3}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3377113017066823850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3377113017066823845}
+  - component: {fileID: 3377113017066823851}
+  m_Layer: 0
+  m_Name: PlayerTemplate
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3377113017066823845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377113017066823850}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3377113017066823851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377113017066823850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ed3263ee3fa6e4b8ba2989d716f05b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 47b505b8277554545a11446cc5233f8f, type: 2}
+  animator: {fileID: 0}
+  maxHealth: 0
+  maxArmor: 0
+  health: 0
+  armor: 0
+  actionPoints: 0
+  attackPower: 0
+  shield: 0
+  spellPower: 0
+  initiative: 0
+  dodgeChance: 0
+  missChance: 0
+  critChance: 0
+  barsPrefab: {fileID: 2269328659719191522, guid: 80d533362605e274089d1e75bc97e0fe,
+    type: 3}
+  isAlly: 1
+  isPlayerCharacter: 1
+  playerChar: {fileID: 11400000, guid: 47b505b8277554545a11446cc5233f8f, type: 2}

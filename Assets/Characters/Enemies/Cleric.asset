@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bfa3f3dcb8b7d4f9999719c2df121b, type: 3}
+  m_Name: Cleric
+  m_EditorClassIdentifier: 
+  characterName: Cleric
+  maxHealth: 8
+  maxArmor: 6
+  defaultAttackPower: 1
+  defaultShield: 4
+  defaultSpellPower: 3
+  defaultMissChance: 0.207
+  defaultDodgeChance: 0.153
+  defaultCritChance: 0.045
+  defaultInitiative: 6
+  characterGraphics: {fileID: 6437331972911732125, guid: af578f5df5942f442acb25efb0c6a12b,
+    type: 3}
+  characterIcon: {fileID: 21300000, guid: a9f162e56103f244ebd81f0d7b9f398d, type: 3}
+  characterActions:
+  - characterAction: 2
+    chance: 0.8
+    target: 2
+    effectPrefab: {fileID: 4353697458961309555, guid: 3b13e21466d8df74f9835d69c310c267,
+      type: 3}
+  - characterAction: 1
+    chance: 0.2
+    target: 1
+    effectPrefab: {fileID: 9101920945256152013, guid: e3a58c43dc225174eb0369945c43a06b,
+      type: 3}
+  isAlly: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bfa3f3dcb8b7d4f9999719c2df121b, type: 3}
+  m_Name: Forest Troll
+  m_EditorClassIdentifier: 
+  characterName: Forest Troll
+  maxHealth: 50
+  maxArmor: 15
+  defaultAttackPower: 7
+  defaultShield: 0
+  defaultSpellPower: 0
+  defaultMissChance: 0.35
+  defaultDodgeChance: 0.03
+  defaultCritChance: 0.1
+  defaultInitiative: 15
+  characterGraphics: {fileID: 5116563274089591806, guid: aa28895479aa57549848be77052af195,
+    type: 3}
+  characterIcon: {fileID: 21300000, guid: 51f242c051b996443a280fbc84e64581, type: 3}
+  characterActions:
+  - characterAction: 0
+    chance: 1
+    target: 0
+    effectPrefab: {fileID: 0}
+  isAlly: 0
